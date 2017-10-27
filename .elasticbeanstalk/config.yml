@@ -1,0 +1,25 @@
+branch-defaults:
+  default:
+    environment: QOTSA
+    group_suffix: null
+environment-defaults:
+  QOTSA:
+    branch: null
+    repository: null
+  django-env:
+    branch: null
+    repository: null
+global:
+  application_name: Up
+  branch: null
+  default_ec2_keyname: null
+  default_platform: python2.7
+  default_region: sa-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application

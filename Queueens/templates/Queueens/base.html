@@ -1,0 +1,24 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="{% static 'img/Grupo 1.png' %}" type="image/png" >
+    <link rel="stylesheet" href="{% static 'css/Queueens.css' %}">
+	<meta charset="UTF-8">
+	<title>Colombia Villians Tour</title>
+</head>
+<body>
+	<header align="center">
+		<!--<img src="{% static 'img/IMAGE.png' %}" id="image">-->
+		<img src="{% static 'img/VENUE CHANGE.png' %}" id="headerImgVenue" align="right">
+		<img src="{% static 'img/HEADERS.png' %}" id="headerImg" align="right">
+	</header>
+	{% block content %}
+	{% endblock %}
+	<img src="{% static 'img/Grupo 1.png' %}" id="album">
+	<footer>
+		<img src="{% static 'img/Grupo 2.png' %}" id="footerImg" align="right">
+	</footer>
+</body>
+</html>

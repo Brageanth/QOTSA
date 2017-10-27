@@ -1,0 +1,11 @@
+{% extends 'Queueens/base.html' %}
+	
+{% block content %}
+	<div id="call" align="center">
+		Inscríbete para la preventa y durante 24 horas exclusivas asegura tu boleta a un precio especial
+	</div>
+	<form method="POST" class="post-form">{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit" class="save btn btn-default" id="boton">Enviar</button>
+	</form>
+{% endblock %}
